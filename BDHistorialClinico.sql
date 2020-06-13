@@ -40,3 +40,4 @@ create table THistorialClinico
 	foreign key (CodMedico) references TMedico,
 	foreign key (CodPaciente) references TPaciente
 )
+-----------Esta es solo una linea para crear la rama developer :v
