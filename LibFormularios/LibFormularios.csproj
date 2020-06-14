@@ -63,5 +63,13 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmHistorialClinico.resx">
+      <DependentUpon>FrmHistorialClinico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMedico.resx">
+      <DependentUpon>FrmMedico.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
