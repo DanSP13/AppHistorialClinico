@@ -16,5 +16,10 @@ namespace LibFormularios
         {
             InitializeComponent();
         }
+
+        private void FrmMedico_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
